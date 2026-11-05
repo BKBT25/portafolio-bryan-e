@@ -1209,11 +1209,33 @@ button {
   }
 
   .project-media {
-    display: none;
+    display: block;
+    aspect-ratio: auto;
+    background: none;
+    overflow: visible;
+    margin-bottom: 0.5rem;
   }
-  .project-link,
+  .project-media img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
   .project-tech {
     display: none;
+  }
+  .project-link {
+    display: inline-block;
+    margin-top: 0.35rem;
+    font-size: 9pt;
+  }
+  .project-link span {
+    display: none;
+  }
+  .project-link::after {
+    content: " " attr(href);
+    word-break: break-all;
   }
   .project-status {
     position: static;
@@ -1237,6 +1259,14 @@ button {
     color: #000;
   }
   .contact-mail-btn {
+    display: inline-flex;
+    background: none;
+    color: #000;
+    border: 0;
+    padding: 0;
+    font-weight: 600;
+  }
+  .contact-mail-btn .icon {
     display: none;
   }
 
