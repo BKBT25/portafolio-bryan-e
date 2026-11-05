@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Vista previa del proyecto T-Sim">
+  <rect width="640" height="400" fill="#eef3fa"/>
+  <g stroke="#1d4ed8" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 200h100l20-32 20 64 20-64 20 32h160"/>
+  </g>
+  <circle cx="150" cy="200" r="9" fill="#1d4ed8"/>
+  <circle cx="490" cy="200" r="9" fill="#1d4ed8"/>
+  <text x="320" y="290" text-anchor="middle" font-family="Palatino, Georgia, serif" font-size="40" font-weight="600" fill="#12294f">T-Sim</text>
+  <text x="320" y="330" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#54627c">Imagen reemplazable del proyecto</text>
+</svg>

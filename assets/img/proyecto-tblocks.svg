@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Vista previa del proyecto T-Blocks">
+  <rect width="640" height="400" fill="#eef3fa"/>
+  <g>
+    <rect x="196" y="120" width="130" height="76" rx="12" fill="#b9cff2"/>
+    <rect x="216" y="196" width="130" height="76" rx="12" fill="#1d4ed8"/>
+    <rect x="176" y="272" width="130" height="20" rx="10" fill="#93aee0"/>
+    <rect x="314" y="120" width="22" height="76" rx="11" fill="#93aee0"/>
+    <rect x="334" y="196" width="22" height="76" rx="11" fill="#2f6bd8"/>
+    <rect x="356" y="120" width="92" height="76" rx="12" fill="#2f6bd8"/>
+    <rect x="356" y="196" width="92" height="76" rx="12" fill="#b9cff2"/>
+  </g>
+  <text x="320" y="290" text-anchor="middle" font-family="Palatino, Georgia, serif" font-size="40" font-weight="600" fill="#12294f" transform="translate(0 60)">T-Blocks</text>
+  <text x="320" y="330" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#54627c" transform="translate(0 60)">Imagen reemplazable del proyecto</text>
+</svg>
