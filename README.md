@@ -52,7 +52,7 @@ Todo el contenido se edita en **`assets/js/data.js`**. No necesitas tocar HTML n
 
 ### Campos marcados como *TODO* (pendientes de tus datos)
 
-1. **Correo real:** en `data.js`, reemplaza `"contacto@example.com"` por tu dirección.
+1. **Correo de contacto:** ya configurado (`bkbtmx@gmail.com`). Cámbialo en `data.js` → `perfil.correo` si lo necesitas.
 2. **Foto de perfil:** sustituye `assets/img/profile.svg` por tu foto (`.jpg` o `.png`), o actualiza la ruta en `perfil.foto`.
 3. **Capturas de proyectos:** reemplaza los SVG de `assets/img/` por capturas reales.
 4. **Enlaces a proyectos:** en `proyectos[].enlace`, agrega la URL cuando exista (mientras esté vacío, el enlace no se muestra).
@@ -116,7 +116,7 @@ python -m http.server 8000
 
 El sitio es 100 % estático; se puede publicar en cualquier hosting estático:
 
-- **GitHub Pages:** sube el contenido a un repositorio y activa Pages desde la rama principal.
+- **GitHub Pages (este repositorio):** el sitio ya está en `BKBT25/portafolio-bryan-e`. Para publicarlo como web, en el repositorio entra a **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `/ (root)` → Save**. La URL pública será `https://bkbt25.github.io/portafolio-bryan-e/`.
 - **Netlify / Vercel / Cloudflare Pages:** arrastra la carpeta o conecta el repositorio; no se requiere configuración.
 - **Cualquier servidor web:** copia la carpeta a la raíz pública.
 
